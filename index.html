@@ -16,7 +16,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="bg min-vh-100">
+    <div class="bg min-vh-100" id="sec0">
       <div class="inner-bg">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container">
@@ -54,26 +54,40 @@
                     Services
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#Fin-Ops">Operational Finance (Fin-Ops)</a></li>
                     <li>
-                      <a class="dropdown-item" href="#Financial-Planning">Financial Planning,
-                        Analysis and Reporting</a>
+                      <a class="dropdown-item" href="#Fin-Ops"
+                        >Operational Finance (Fin-Ops)</a
+                      >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#CFO">Fractional CFO Services</a>
+                      <a class="dropdown-item" href="#Financial-Planning"
+                        >Financial Planning, Analysis and Reporting</a
+                      >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#Cost-control">Cost control</a>
+                      <a class="dropdown-item" href="#CFO"
+                        >Fractional CFO Services</a
+                      >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#Cash-Management">Cash Management</a>
+                      <a class="dropdown-item" href="#Cost-control"
+                        >Cost control</a
+                      >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#Startup-Advisory">Startup Advisory</a>
+                      <a class="dropdown-item" href="#Cash-Management"
+                        >Cash Management</a
+                      >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#GRC">Governance, Risk and
-                        Compliance (GRC)</a>
+                      <a class="dropdown-item" href="#Startup-Advisory"
+                        >Startup Advisory</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#GRC"
+                        >Governance, Risk and Compliance (GRC)</a
+                      >
                     </li>
                   </ul>
                 </li>
@@ -114,11 +128,6 @@
           <h2 class="fw-bolder fs-40px color2 text-center mt-5 mb-4">
             OUR Services
           </h2>
-          <p class="fw-500 fs-14px text-center">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis <br />
-            enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-          </p>
         </div>
         <div class="card p-4 br-24px shadow-sm mb-4" id="Fin-Ops">
           <div class="card-body">
@@ -363,11 +372,6 @@
           <h2 class="fw-bolder fs-40px color2 text-center mt-5 mb-4">
             OUR Team
           </h2>
-          <p class="fw-500 fs-14px text-center">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis <br />
-            enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-          </p>
         </div>
         <div class="row mt-5">
           <div class="col-md-6">
@@ -437,31 +441,24 @@
                   Donia Ismail
                 </h5>
                 <p class="card-text fw-normal fs-18px text-black lh-32px">
-                  • Donia is an investment professional currently leading a
-                  function with a mandate to invest across asset classes. The
-                  position required reviving this function through setting up
-                  the department structure, investment policy statements and
-                  procedures for reporting
+                  • Ms. Donia is an investment professional currently leading a
+                  function with a mandate to invest across asset classes.
                 </p>
                 <p class="card-text fw-normal fs-18px text-black lh-32px">
-                  • Previous experience in venture capital focused on revenue
-                  enhancement streams and product configurations
-                </p>
-                <p class="card-text fw-normal fs-18px text-black lh-32px">
-                  • Previous experience in equity investment was comprehensive
-                  starting from deal sourcing to executing successful exists.
-                  The role entailed market research, developing financial
-                  models, preparing material for potential investors and client
+                  • She has comprehensive experience in equity investment,
+                  starting from deal sourcing to executing successful exits.This
+                  role entailed market research, developing financial models,
+                  preparing material for potential investors and client
                   management.
                 </p>
                 <p class="card-text fw-normal fs-18px text-black lh-32px">
-                  • Central across all experiences was communication skills,
-                  whether verbal or written, to create and manage investor pitch
-                  decks along with other forms of reporting
+                  • Employing her strong verbal and written communication
+                  skills, she helped create and manage investor pitch decks
+                  along with other forms of reporting.
                 </p>
                 <p class="card-text fw-normal fs-18px text-black lh-32px">
-                  • Donia graduated from New York University with a degree in
-                  Political Science
+                  • Ms. Donia graduated from New York University with a degree
+                  in Political Science.
                 </p>
               </div>
             </div>
@@ -479,30 +476,35 @@
                 Get In Touch
               </h2>
             </div>
-            <form action="">
+            <!-- action="https://formsubmit.co/el/xohiwi" -->
+            <form  method="POST">
               <input
-                type="text"
+                type="email"
+                name="email"
                 class="form-control border-0 border-bottom rounded-0 mb-4"
                 placeholder="Email"
               />
               <input
                 type="text"
+                name="name"
                 class="form-control border-0 border-bottom rounded-0 mb-4"
                 placeholder="NAME"
               />
               <input
                 type="text"
+                name="subject"
                 class="form-control border-0 border-bottom rounded-0 mb-4"
-                placeholder="PHONE"
+                placeholder="subj"
               />
               <input
                 type="text"
+                name="message"
                 class="form-control border-0 border-bottom rounded-0 mb-4 pb-5"
                 placeholder="MESSAGE"
               />
-              <a href="#" class="btn btn-primary fw-500 p-2 px-5"
-                >SEND <i class="fa-solid fa-arrow-right px-2"></i
-              ></a>
+              <button type="submit" class="btn btn-primary fw-500 p-2 px-5">
+                SEND <i class="fa-solid fa-arrow-right px-2"></i>
+              </button>
             </form>
           </div>
         </div>
@@ -517,14 +519,14 @@
             >
               <img src="images/Group 98.svg" alt="" />
               <p class="fw-normal fs-14px color1 pt-3">Call us</p>
-              <p class="fw-normal fs-14px color1">+20-100-000-0000</p>
+              <p class="fw-normal fs-14px color1">+201223143500</p>
               <p class="fw-normal fs-14px color1">
                 15 Nasa St, space x, Cairo - Egypt.
               </p>
               <a href="#" class="fw-normal fs-14px color1"
-                >Contact@Finpro-eg.com
+                >info@finpro-eg.com
               </a>
-              <div
+              <!-- <div
                 class="d-flex justify-content-start align-content-center py-5"
               >
                 <div
@@ -559,23 +561,23 @@
                     class="fa-brands fa-youtube text-decoration-none color1"
                   ></a>
                 </div>
-              </div>
+              </div> -->
             </div>
             <div class="col-md-2 d-flex flex-column justify-content-start">
               <h3 class="fw-500 fs-5">Company</h3>
-              <a href="#" class="fw-normal color4 text-decoration-none py-2"
+              <a href="#sec0" class="fw-normal color4 text-decoration-none py-2"
                 >Home</a
               >
-              <a href="#" class="fw-normal color4 text-decoration-none py-2"
+              <a href="#sec2" class="fw-normal color4 text-decoration-none py-2"
                 >Services</a
               >
-              <a href="#" class="fw-normal color4 text-decoration-none py-2"
+              <a href="#sec3" class="fw-normal color4 text-decoration-none py-2"
                 >About us</a
               >
-              <a href="#" class="fw-normal color4 text-decoration-none py-2"
-                >Our Clients</a
+              <a href="#sec4" class="fw-normal color4 text-decoration-none py-2"
+                >Our Team</a
               >
-              <a href="#" class="fw-normal color4 text-decoration-none py-2"
+              <a href="#sec5" class="fw-normal color4 text-decoration-none py-2"
                 >Contact Us</a
               >
             </div>
